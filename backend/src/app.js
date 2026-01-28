@@ -19,7 +19,7 @@ app.use("/api/claims", require("./routes/claim.routes"));
 app.use(express.static(path.join(__dirname, '../../frontend/out')));
 
 // Handle all other routes - serve frontend index.html
-app.get('*', (req, res) => {
+app.get(/.*/, (req, res) => {
   res.sendFile(path.join(__dirname, '../../frontend/out/index.html'));
 });
 
