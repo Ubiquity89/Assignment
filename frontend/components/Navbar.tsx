@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import API from "../src/lib/api";
+import API from "../lib/api";
 
 export default function Navbar() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

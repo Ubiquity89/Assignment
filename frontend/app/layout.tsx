@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ClientLayout from "./ClientLayout";
-import { AuthProvider } from "../src/context/AuthContext";
+import { AuthProvider } from "../context/AuthContext";
 
 const inter = Geist({ subsets: ["latin"] });
 

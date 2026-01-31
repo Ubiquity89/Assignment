@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import API from "../../../src/lib/api";
+import API from "../../../lib/api";
 import { useParams, useRouter } from "next/navigation";
 
 export default function DealDetails() {
